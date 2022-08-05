@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"></link>
+
+        <title>
+            Pomolog
+        </title>
+    </head>
+    <body>
+        <main class="pomologWrapper">
+            <nav>
+                <div class="titleWrapper">
+                    <h1>Pomolog</h1>
+                </div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+            
+            <div class="pomolog">
+                <div class="timer">
+
+
+                    <!-- work timer -->
+                    <div class="clockContainer">
+                    <div class="workDisplay" 
+                    id="workDisplay">
+                        <label for="w_minutes" class="label">Focus</label>
+                        <div class="workMinutesWrapper">
+                            <p id="w_minutes">25</p>
+                            <span>:</span>
+                            <p id="w_seconds">00</p>
+                        </div>
+                    </div>
+
+                    <!-- Cycle counter -->
+                    <div class="cycleCountWrapper">
+                        <label for="counter" class="label">Cycle</label>
+                        <span class="c_counter" id="counter">0</span>
+                    </div>
+                
+                    <!-- break timer -->
+                    <div class="breakDisplay" 
+                    id="breakDisplay">
+                        <label for="b_minutes" class="label">Break</label>
+                        <div class="breakMinutesWrapper">
+                            <p id="b_minutes">5</p>
+                            <span>:</span>
+                            <p id="b_seconds">00</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+
+                    <div class="startStopBtnsWrapper">
+                        <button class="startStopBtn startBtn-green" id="startBtn">Start</button>
+                        <button class="startStopBtn stopBtn-red" id="stopBtn">Stop</button>
+                    </div>
+                    <div class="resetBtnWrapper">
+                        <button class="btn resetBtn" id="resetBtn">Reset</button>
+                    </div>
+                    
+                </div>
+                <div class="logDisplay">
+                    <div>Category 1</div>
+                    <div>Category 2</div>
+                    <div>Category 3</div>
+                    <div>Category 4</div>
+
+
+
+                </div>
+            </div> 
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>

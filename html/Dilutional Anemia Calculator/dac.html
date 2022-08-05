@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dilutional Anemia Calculator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+      <div class="header">
+        <h1>Dilutional Anemia Calculator</h1>
+      </div>
+    
+        
+        <div class="container">
+          <div class="answer">
+            <h2 id="answer">0.0 g/dL</h2>  
+          </div>
+          
+          <div class="number1">
+            <label for="bloodVolume">Blood Volume (mL/kg):</label>
+            <input type="number" name="bloodVolume" id="bloodVolume" class="bloodVolume"> 
+          </div>
+          <div class="number2">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" name="weight" id="weight" class="weight"> 
+           </div>
+           <div class="number3">
+            <label for="hemoConc">Hemoglobin concentration (g/dL):</label>
+            <input type="number" name="hemoConc" id="hemoConc" class="hemoConc"> 
+           </div>
+          <div class="number4">
+            <label for="salineAmount">Saline amount (L):</label>
+            <input type="number"  name="salineAmount" id="salineAmount" class="salineAmount"> 
+          </div>   
+          <button onclick="compute()">Calculate</button>   
+      </div>
+
+
+      <div class="footer">
+        <h4>Copyright 2020 Abigail Curtis</h4>
+      </div>
+    
+    
+      <script src="script.js"></script>
+      
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1544397189-b5a684ee08d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.header {
+    text-align: center;
+    background: rgba(20, 62, 69, 0.6);
+    color: white;
+    font-size: 30px;
+    text-shadow:0px 1px 0px #90a3a8;
+    margin: auto;
+    width: 50%;
+    padding: 10px;  
+    box-shadow: 2px 2px #848c9c;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 300px;
+  border: 2px none #90a3a8;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px #848c9c;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.answer {
+    background: #90a3a8;
+    width: 65%;
+    height: 50px;
+    color:white;
+    box-shadow: 2px 2px #445b5e;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.number1 {
+    text-align: center;
+    padding: 10px;
+    
+  
+}
+
+.number2 {
+    text-align: center;
+    padding: 5px;
+
+    
+}
+.number3 {
+    text-align: center;
+    padding: 5px;
+
+}
+.number4 {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+input {
+    border: none;
+    width: 25%;
+    margin-left: 5px;
+    box-shadow: 2px 2px #d1d1d4;
+}
+
+label {
+    color: #486861;
+}
+
+button {
+        box-shadow: 0px 10px 14px -7px  #2d545e;
+        background:linear-gradient(to bottom,  	#486861 5%, #5f8489 100%);
+        background-color: 	#486861;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow: 0px 1px 0px #3d768a;
+    }
+   
+.footer {
+    background: rgba(20, 62, 69, 0.7);    
+    color: #d1d1d4;
+    text-shadow: 0px 1px 0px #3d768a;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 2px 2px #848c9c;
+    font-family: 'Ubuntu', sans-serif;
+}
