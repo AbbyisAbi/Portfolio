@@ -1,0 +1,657 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    margin: 3rem;
+
+}
+
+h1 {
+
+}
+
+.decorWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.backgroundDec {
+    width: 65%;
+    height: 90%;
+    background-color: #FDF3CA;
+    position: absolute;
+    z-index: -1;
+}
+
+.backgroundDec2 {
+    width: 35%;
+    height: 20%;
+    background-color: #EBD1AF;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+
+
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 50;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    margin-top: 0.75rem;
+
+
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.navLinks {
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 30px;
+
+}
+
+.navLink {
+    list-style: none;
+    color: black;
+    margin: 0.5rem 0.75rem;
+    
+}
+
+a {
+    color: black;
+}
+
+.navHome {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.navHomeName {
+    font-size: 1.25rem;
+}
+
+.homeTitle {
+    font-size: .5rem;
+
+}
+
+
+.hero {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 50;
+    
+}
+
+.heroName {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    z-index: 99;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: -20px;
+    
+
+}
+
+.heroName span {
+    font-size: 6rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color:transparent;
+
+
+}
+
+.abi {
+    text-align: center;
+    position: relative;
+    right: 24px;
+}
+
+.gail {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -50px;
+}
+
+.heroImgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    bottom: 60px;
+    margin-bottom: -60px;
+
+}
+
+.heroImg {
+    width: 100%;
+    max-height: auto;
+
+
+}
+
+
+
+.socialList {
+    width: 70%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;   
+   
+
+}
+
+.socialLink {
+    width: 8vw;
+    height: 8vw;
+ 
+
+
+}
+
+.heroTagline {
+  width: 95%;
+  padding-top: 0.6rem;
+
+
+
+
+ 
+
+}
+
+.heroTitle {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 1.37rem;
+
+
+
+
+}
+
+.heroDescription {
+    font-size: 0.75rem;
+
+
+
+  
+}
+
+.heroLearn {
+    width: 50%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.callToAction {
+    font-size: 0.75rem;
+    text-decoration: underline;
+
+
+
+}
+
+.heroArrowWrapper {
+   
+
+}
+
+.heroArrow {
+    width: 7vw;
+    height: 7vw;
+  
+
+
+}
+
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.55rem;
+    margin: 1rem 0;
+
+}
+
+
+.workSectionContainer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.workHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+   
+}
+.workIll {
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+
+   
+
+   
+  
+  
+}
+
+.workList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.workWrapper {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+
+
+
+  
+}
+
+.workWrapper:hover {
+    background-color: red;
+    border: none;
+
+}
+
+
+.workEx {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.workLink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.workImgWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+    margin-bottom: -80px;
+
+}
+
+.workImg {
+    width: 85%;
+
+}
+
+.workDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin: 0 1.18rem;
+
+ 
+}
+
+
+.workTitle {
+    font-size: 1.25rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+   
+}
+
+.workDescription {
+    font-size: 0.75rem; 
+    margin-top: 0.5rem;
+    margin-right: 0.60rem;
+
+}
+
+.workTech {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.workTechList {
+    width: 80%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+  
+
+
+}
+
+.workTechItem {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0 0.45rem;
+    
+
+}
+
+
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(174, 174, 174);
+    box-shadow: 3px 4px hsl(0, 1%, 21%);
+    background-color: #f6f6f6;
+}
+.aboutImg {
+    width: 95%;
+    margin: 0.5rem;
+}
+
+.aboutIll {
+    width: 65%;
+    height: 65%;
+    position: relative;
+    left: 30px;
+    bottom: 65px;
+    margin-bottom: -60px;
+    
+
+  
+    
+}
+
+.aboutDescWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+
+.aboutInfo {
+    width: 100%;
+    margin-top: 1rem;
+  
+ 
+
+}
+.p {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+
+   
+}
+
+
+.aboutDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+
+
+.aboutTitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    
+    position: relative;
+    top: 25px;
+
+   
+
+}
+
+.aboutList {
+    border: 1px solid black;
+    padding: 2rem 3rem 0.75rem 3rem;
+    box-shadow: 1px 1px black;
+}
+
+.aboutListItem {
+    padding: 0.75rem 0;
+}
+
+
+.contactSection {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.contactHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+ 
+}
+
+.contactTitle {
+    align-self: flex-start;
+   
+}
+
+.contactTag {
+    font-weight: normal;
+
+    font-size: 0.75rem;
+  
+}
+
+.contactIll {
+    width: 85vw;
+    height: 85vw;
+}
+
+.formTitle {
+    font-size: 2rem;
+    font-weight: thin;
+}
+
+.contactFormWrapper {
+    width: 100%;
+    
+}
+
+.formDecor {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contactForm {
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 3rem 1rem 0.75rem 1rem;
+    position: relative;
+    margin-top: -15px;
+
+}
+
+.formLabel {
+    font-size: 0.75rem;
+    margin: 0.25rem 0;
+
+}
+
+
+.formInput {
+    padding: 0.25rem;
+    font-size: 0.50rem;
+}
+
+.prefWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.formBtn {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    margin: 2rem 0.25em;
+    border: 1px solid black;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.footerSocialList {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footerSocialLink {
+ 
+}
+
+.copyright {
+font-size: 0.75rem;
+margin: 1rem;
+
+
+}
+
+
+
+
+#contactLabel {
+    font-size: 0.55rem;
+    
+}
+
+#selectPhone {
+
+}
+
+#selectEmail {
+
+
+}
+
+#notes {
+    padding-bottom: 3rem;
+}
+
+
+
+
+
