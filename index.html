@@ -14,16 +14,23 @@
 		Abigail Curtis | Front-End Web Developer
 	</title>
 </head>
+
+
 <body>
-    <section class="decorWrapper">
-        <div class="backgroundDec"></div>
-        <div class="backgroundDec2"></div>
-    </section>
+   
+    
+        <div class="decorSquare1">
+    
+        </div>
+        <div class="decorSquare2">
+            
+        </div>
+
    
 	<header class="header">
 		<nav>
             <div class="navHome">
-               <a class="link" href=#hero>abigail</a>
+               <a class="link navHomeName" href=#hero>abigail</a>
                 <span class="homeTitle">web developer</span>
 
             </div>
@@ -52,36 +59,41 @@
             <img src="assets/imgs/abbyBlackGradient.png" alt="" class="heroImg">
         </div>
             
-        <div class="heroBackgroundSquare">
-
-        </div>
-        <ul class="socialList">
+        <ul class="footerSocialList">
             <li>
                 <a href=https://dribbble.com/amcxtd44 target="_blank">
-                    <img src="assets/svgs/dri.svg" alt="" class="socialLink">
+                    <img src="assets/svgs/dri.svg" alt="" class="footerSocialLink">
                 </a>
             </li>
             <li>
                 <a href=https://github.com/AbbyisAbi?tab=overview&from=2022-05-01&to=2022-05-31 target="_blank">
-                    <img src="assets/svgs/git.svg" alt="" class="socialLink">
+                    <img src="assets/svgs/git.svg" alt="" class="footerSocialLink">
                 </a>
             </li>
             <li>
                 <a href=https://www.linkedin.com/in/abbyjcurt/ target="_blank">
-                    <img src="assets/svgs/li.svg" alt="" class="socialLink">
+                    <img src="assets/svgs/li.svg" alt="" class="footerSocialLink">
                 </a>
             </li>
         </ul>
-        <div class="heroTagline">
-            <h1 class="heroTitle">Ready to solve your problems</h1>
-            <p class="heroDescription">I’m a front end web developer passionate about making the web more accessible</p>
-        </div>
+  
+       
+        <div class="heroDetails">
 
+            
+            <div class="heroTagline">
+                <h1 class="heroTitle">Ready to solve your problems</h1>
+                <p class="heroDescription">I’m a front end web developer passionate about making the web more accessible</p>
+            </div>
+    
+           
+        </div>
         <div class="heroLearn" >
             <span class="callToAction">Learn more</span>
             <img src="assets/svgs/arrow.svg" alt="" class="heroArrow">
             
         </div>
+       
 
     </section>
 
@@ -93,8 +105,8 @@
             </div>
             
             <div class="workList">
-                <div class="workWrapper">
-                    <article class="workEx">
+               
+                    <article class="workEx work1" id="work1">
                         <a href="" class="workLink">
                             <div class="workImgWrapper">
                                 <img src="assets/imgs/DAC.png" alt="" class="workImg">
@@ -115,16 +127,16 @@
                             </ul>
                         </footer>
                     </article>
-                </div>
-                <div class="workWrapper">
-                    <article class="workEx">
+                
+               
+                    <article class="workEx work2">
                         <a href="html/Dilutional Anemia Calculator/dac.html" class="workLink">
                             <div class="workImgWrapper">
                                 <img src="assets/imgs/DAC.png" alt="" class="workImg"> 
                             </div>
                             
                             <div class="workDetails">
-                                <h3 class="workTitle">Dilutional Anemia Calculator</h3>                 
+                                <h3 class="workTitle">DAC</h3>                 
                                 <p class="workDescription">Built for medical students, this calculator calculates the anemia potential for a given blood transfusion.</p>
                             </div>
                         </a>
@@ -136,10 +148,10 @@
                             </ul>
                         </footer>
                     </article>
-                </div>
+            
                 
-                <div class="workWrapper" id="workBottom">
-                    <article class="workEx">
+               
+                    <article class="workEx work3">
                         <a href="html/pomolog/pomolog.html" class="workLink" target="_blank">
                             <div class="workImgWrapper">
                                 <img src="assets/imgs/DAC.png" alt="" class="workImg"> 
@@ -159,7 +171,7 @@
                         </footer>
                     </article>
                     
-                </div>
+
 
                 
 
@@ -167,7 +179,10 @@
 		</section>
       
         <section class="aboutSection" id="about">
-            <h2 class="aboutHeader">Always Following My Curiosity...</h2>
+            <div class="aboutHeader">
+                <h2 class="aboutHeaderTitle">Always Following My Curiosity...</h2>
+            </div>
+            
             
             <div class="aboutDescWrapper">
                 <div class="imgWrapper">
@@ -192,12 +207,14 @@
             
             <div class="aboutDetails">
                 
-                <span class="aboutTitle">skills</span>
+                <span class="aboutTitle title1">skills</span>
 
-                <ul class="aboutList">
+                <ul class="aboutList list1">
                      <li class="aboutListItem">
                             SEO
                     </li>
+                    <li class="aboutListItem">Photoshop</li>
+                    <li class="aboutListItem">Illustrator</li>
                     <li class="aboutListItem">
                             SquareSpace
                     </li>
@@ -209,8 +226,8 @@
                     
                         
                     
-                    <span class="aboutTitle" >tech</span>
-                    <ul class="aboutList" >
+                    <span class="aboutTitle title2" >tech</span>
+                    <ul class="aboutList list2" >
                         <li class="aboutListItem">
                             JavaScript
                         </li>
@@ -248,18 +265,9 @@
                     <input type="email" class="formInput" id="email" name="email" placeholder="janedoe@gmail.com" required>
                     <label for="phone" class="formLabel">Phone:</label>
                     <input type="number" id="phone" name="phone" class="formInput" placeholder="(555) 555-5555" required>
-                    <span class="formLabel">Contact Preference:</span>
-                    <div class="prefWrapper">
-                        <label for="selectEmail" id="contactLabel" class="formLabel" >Email</label>
-                        <input type="radio" id="selectEmail" class="formInput" checked="
-                        checked" name="selectEmail" required>
-                        <label for="selectPhone" class="formLabel" id="contactLabel" >Phone</label>
-                        <input type="radio" id="selectPhone" class="formInput" name="selectPhone" value="contactPhone" required>
-                        
-                    </div>
                     
                     <label for="notes" class="formLabel">Notes:</label>
-                    <input name="notes" type="textarea" class="formInput" rows="10" cols="80" maxlength="200" id="notes" placeholder="I am needing help with my SquareSpace site..." required>
+                    <input name="notes" type="textarea" class="formInput" rows="10" cols="80" maxlength="200" id="notes" placeholder="I need help with..." required>
                     <input type="hidden" name="_next" value="https://abigailcurtis.com/thanks.html">
                     <button class="formBtn">Send request</button>
                 </form>
@@ -290,4 +298,5 @@
         </footer>
 	
 </body>
+
 </html>
