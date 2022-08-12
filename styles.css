@@ -711,6 +711,26 @@ margin: 1rem;
 }
 
 
+.thankyou {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thankyouHeader {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 3rem;
+}
+
+.returnHome {
+    font-size: 1rem;
+    margin: 1rem;
+    text-decoration: underline;
+
+}
+
 @keyframes blinker {
     50% {
       opacity: 0;
